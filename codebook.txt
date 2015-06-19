@@ -1,0 +1,76 @@
+ ## This is the codebook for the final project in Coursera's "Getting and Cleaning Data" course. 
+ 
+ # Codes that starts with "t" indicate a measurement in the time domain
+ # Codes that begin with "f" indicate a Fast Fourier Transform (denoted FFT) of the corresponding time domain variable
+ # All of the measurement are mean and standard deviations of the original raw data. Means are indicated with "mean" in the variable name. Standard deviations are indicated with "std" in the name
+ # An "X", "Y", or "Z" at the end of a variable name indicates the axis along which the measurement is taken
+ 
+ 
+ Activity - Name of the activity being performed by the subject at time of measurement             
+ Subject - ID number of the subject performing the activity ranging from 1 to 30.                   
+ tBodyAcc.std...X - Estimated body acceleration on x axis, standard deviation
+ tBodyAcc.std...Y - Estimated body acceleration on y axis, standard deviation          
+ tBodyAcc.std...Z - Estimated body acceleration on z axis, standard deviation           
+ tGravityAcc.std...X - Estimated gravity acceleration on the x axis, standard deviation       
+ tGravityAcc.std...Y - Estimated gravity acceleration on the y axis, standard deviation       
+ tGravityAcc.std...Z - Estimated gravity acceleration on the z axis, standard deviation        
+ tBodyAccJerk.std...X - Estimated body jerk acceleration on the x axis, standard deviation     
+ tBodyAccJerk.std...Y - Estimated body jerk acceleration on the y axis, standard deviation        
+ tBodyAccJerk.std...Z - Estimated body jerk acceleration on the z axis, standard deviation        
+ tBodyGyro.std...X - Estimated body angular velocity on the x axis, standard deviation     
+ tBodyGyro.std...Y - Estimated body angular velocity on the y axis, standard deviation           
+ tBodyGyro.std...Z - Estimated body angular velocity on the z axis, standard deviation           
+ tBodyGyroJerk.std...X - Estimated body jerk angular velocity on the x axis, standard deviation       
+ tBodyGyroJerk.std...Y - Estimated body jerk angular velocity on the y axis, standard deviation      
+ tBodyGyroJerk.std...Z - Estimated body jerk angular velocity on the z axis, standard deviation       
+ tBodyAccMag.std..  - Estimated body acceleration magnitude, standard deviation          
+ tGravityAccMag.std.. - Estimated gravity jerk acceleration magnitude, standard deviation
+ tBodyAccJerkMag.std.. - Estimated body jerk acceleration magnitude, standard deviation     
+ tBodyGyroMag.std.. - Estimated body angular velocity magnitude, standard deviation        
+ tBodyGyroJerkMag.std.. - Estimated body jerk angular velocity magnitude, standard deviation  
+ fBodyAcc.std...X - FFT of body acceleration on x axis, standard deviation      
+ fBodyAcc.std...Y - FFT of body acceleration on y axis, standard deviation          
+ fBodyAcc.std...Z - FFT of body acceleration on z axis, standard deviation           
+ fBodyAccJerk.std...X - FFT of body jerk acceleration on x axis, standard deviation        
+ fBodyAccJerk.std...Y - FFT of body jerk acceleration on y axis, standard deviation        
+ fBodyAccJerk.std...Z - FFT of body jerk acceleration on z axis, standard deviation       
+ fBodyGyro.std...X - FFT of body angular velocity on x axis, standard deviation          
+ fBodyGyro.std...Y - FFT of body angular velocity on y axis, standard deviation           
+ fBodyGyro.std...Z - FFT of body angular velocity on z axis, standard deviation           
+ fBodyAccMag.std.. - FFT of body acceleration magnitude, standard deviation          
+ fBodyBodyAccJerkMag.std.. - FFT of body jerk acceleration magnitude, standard deviation
+ fBodyBodyGyroMag.std.. - FFT of body jerk angular velocity magnitude, standard deviation     
+ fBodyBodyGyroJerkMag.std.. - FFT of body jerk angular velocity magnitude, standard deviation
+ tBodyAcc.mean...X - Estimated body acceleration on x axis, mean        
+ tBodyAcc.mean...Y - Estimated body acceleration on y axis, mean           
+ tBodyAcc.mean...Z - Estimated body acceleration on z axis, mean           
+ tGravityAcc.mean...X - Estimated gravity acceleration on the x axis, mean        
+ tGravityAcc.mean...Y - Estimated gravity acceleration on the y axis, mean       
+ tGravityAcc.mean...Z - Estimated gravity acceleration on the z axis, mean        
+ tBodyAccJerk.mean...X - Estimated body jerk acceleration on the x axis, mean    
+ tBodyAccJerk.mean...Y - Estimated body jerk acceleration on the y axis, mean       
+ tBodyAccJerk.mean...Z - Estimated body jerk acceleration on the z axis, mean      
+ tBodyGyro.mean...X - Estimated body angular velocity on the x axis, mean          
+ tBodyGyro.mean...Y - Estimated body angular velocity on the y axis, mean          
+ tBodyGyro.mean...Z - Estimated body angular velocity on the z axis, mean          
+ tBodyGyroJerk.mean...X - Estimated body jerk angular velocity on the x axis, mean   
+ tBodyGyroJerk.mean...Y - Estimated body jerk angular velocity on the y axis, mean      
+ tBodyGyroJerk.mean...Z - Estimated body jerk angular velocity on the z axis, mean      
+ tBodyAccMag.mean.. - Estimated body acceleration magnitude, mean      
+ tGravityAccMag.mean.. - Estimated gravity jerk acceleration magnitude, mean     
+ tBodyAccJerkMag.mean.. - Estimated body jerk acceleration magnitude, mean      
+ tBodyGyroMag.mean.. - Estimated body angular velocity magnitude, mean        
+ tBodyGyroJerkMag.mean.. - Estimated body jerk angular velocity magnitude, mean     
+ fBodyAcc.mean...X - FFT of body acceleration on x axis, mean          
+ fBodyAcc.mean...Y - FFT of body acceleration on y axis, mean           
+ fBodyAcc.mean...Z - FFT of body acceleration on z axis, mean           
+ fBodyAccJerk.mean...X - FFT of body jerk acceleration on x axis, mean     
+ fBodyAccJerk.mean...Y - FFT of body jerk acceleration on y axis, mean       
+ fBodyAccJerk.mean...Z - FFT of body jerk acceleration on z axis, mean        
+ fBodyGyro.mean...X - FFT of body angular velocity on x axis, mean         
+ fBodyGyro.mean...Y - FFT of body angular velocity on y axis, mean          
+ fBodyGyro.mean...Z - FFT of body angular velocity on z axis, mean         
+ fBodyAccMag.mean.. - FFT of body acceleration magnitude, mean          
+ fBodyBodyAccJerkMag.mean.. - FFT of body jerk acceleration magnitude, mean 
+ fBodyBodyGyroMag.mean.. - FFT of body jerk angular velocity magnitude, mean    
+ fBodyBodyGyroJerkMag.mean.. - FFT of body jerk angular velocity magnitude, mean
