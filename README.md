@@ -14,7 +14,7 @@ This repo contains three files:
 
 run_analysis.R performs a number of steps to process the raw data files. First, the training features data set and 
 the test features data set are loaded from the corresponding text files into data.frames. After that the subject id 
-column in added to each, and the activity id column is added to each. 
+column is added to each, and the activity id column is added to each. 
 
 The train and test data sets are then combined into one single data.frame. Then, the feature set is
 given descriptive column names taken from the 'features.txt' file. In addition the subject and activity id columns are given
