@@ -2,6 +2,7 @@
 
 
 This repo contains three files:
+
 1. run_analysis.R  -  An R script for cleaning and preparing a new dataset based on the "Human Activity
    Recognition Using Smartphones Data Set" from the UCI Machine Learning Repository. 
    
